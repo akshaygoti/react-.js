@@ -1,0 +1,48 @@
+.main{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    height: 500px;
+    width: 1300px;
+    border: 2px;
+}
+
+
+/* .box-1{
+    height: 465px;
+    width: 300px;
+    background-color: rgb(24, 75, 75);
+    background-image: url(asset\ 41.png);
+    margin-left: -450px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 15px;
+} */
+
+/* .img1{
+   margin-top: 198px;
+   margin-left: -47px;
+   width: 357px;
+   height: 276px;
+}
+
+.p1{
+    font-size: 20px;
+    color: white;
+    margin-left: -232px;
+    margin-top: 70px;
+}
+
+.p2{
+   font-size: 40px;
+   color: rgb(245, 126, 0); 
+   margin-left: -306px;
+   margin-top: -7px;
+}
+
+
+.box-2{
+    
+}
+ */

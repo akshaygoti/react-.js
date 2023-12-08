@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        .back-1{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            color: hsl(hue, saturation, lightness);
+        }
+
+        .back-2{
+            width: 200px;
+            height: 200px;
+            background-image:url(./food.jpg) ;
+           background-repeat: no-repeat;
+           /* background-position: bottom; */
+           background-attachment: fixed;
+        }
+
+        .linear-gradinet-1{
+            height: 500px;
+            width: 100%;
+            background:linear-gradinet(to top,red(140,155,255));
+        }
+
+        .digonal-linear-gradinet{
+            height: 500px;
+            width: 100%;
+            background:linear-gradine(to top,green,yellow 80%) ;
+        }
+
+        .linear-gradine-rainbow{
+            height: 500px;
+            width: 100%;
+            background: linear-gradine(to left,red, orange, green, yellow, blue, pink, violet);
+        }
+
+        .radial-gradient--simple{
+            height: 500px;
+            width: 100%;
+            background: linear-gradine(to left,red, orange, green, yellow, blue, pink, violet);
+        }
+       
+        .radial-gradien{
+            height: 500px;
+            width: 100%;
+            background:radial-gradien(circle farthest-corner at right, blue,red) ;
+        }
+        .bullseye{
+            height: 100vh;
+            width:100%;
+            background: repeating-radial-gradient(red,red 15%,white 10%, white 20%);
+        }
+
+        .warning{
+            height: 100vh;
+            width:100%;
+            background: repeating-linear-gradient(0dg, yellow,yellow 10%,black 10%,black 20%);
+        }
+    </style>
+</head>
+<body>
+    <div class="back-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem ratione quos inventore quidem dolores, eligendi earum, nisi aperiam error deserunt tenetur repellat nam, debitis sit. Sunt quibusdam laborum mollitia.</div>
+
+    <div class="back-2"></div>
+
+    <div class="linear-gradinet-1"></div>
+
+    <div class="digonal-linear-gradinet"></div>
+
+    <div class="linear-gradine-rainbow"></div>
+
+    <div class="radial-gradient-simple"></div>
+
+    <div class=" radial-gradient"></div>
+
+    <div class="bullseye"></div>
+
+    <div class="warning"></div>
+   
+</body>
+</html>

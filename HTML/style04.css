@@ -1,0 +1,155 @@
+ /* h1:first-child{
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:first-of-type{
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:last-child{
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:last-of-type{
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:not(h1){
+     color: red;
+     background-color: yellow;
+ }
+
+ h1:nth-child(){
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:nth-last-child(){
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:nth-last-of-type(){
+    color: red;
+    background-color: yellow;
+ }
+
+ h1:nth-of-type(){
+    color: red;
+    background-color: yellow;
+ }
+ 
+ h1:only-of-type{
+     color: red;
+     background-color: yellow;
+ }
+ 
+ h1:only-child{
+    color: red;
+    background-color: yellow;
+} 
+
+.input01::placeholder{
+   color: green;
+   text-decoration: underline;
+}
+
+.input:focus{
+   border: none;
+   outline: 5px;
+}
+
+ */
+/* -------------------- */
+
+
+ div:nth-of-type(2) h1:nth-child(2){
+   background-color: yellow;
+} 
+
+ div:nth-of-type(2) h1:nth-child(6){
+   background-color: yellow;
+}  
+
+  div:nth-last-child(1) h1:nth-child(4){
+   background-color: yellow;
+} 
+
+div:nth-last-child(1) h1:nth-child(9){
+   background-color: yellow;
+}  
+
+a:first-child{
+   background-color: yellow;
+   color: red;
+}
+
+a:nth-child(4){
+   background-color: yellow;
+}
+
+p:first-child{
+   background-color: yellow;
+}
+
+ li:first-child{
+   background-color: yellow;
+} 
+
+ h1:nth-child(3){
+   background-color: yellow;
+}
+
+h1:nth-child(6){
+   background-color: yellow;
+}
+
+h1:nth-child(8){
+   background-color: yellow;
+} 
+
+
+
+
+/* h1:nth-last-of-type(1){
+   background-color: yellow;
+}
+
+h1:nth-last-of-type(4){
+   background-color: yellow;
+}
+
+h1:nth-last-of-type(7){
+   background-color: yellow;
+} */
+
+h1:nth-child(3){
+   background-color: yellow;
+}
+
+h1:nth-child(6){
+   background-color: yellow;
+}
+
+h1:nth-child(8){
+   background-color: yellow;
+}
+
+h1:nth-last-of-type(1){
+   background-color: yellow;
+}
+
+h1:nth-last-of-type(4){
+   background-color: yellow;
+}
+
+h1:nth-last-of-type(7){
+   background-color: yellow;
+}
+
+
+

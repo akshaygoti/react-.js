@@ -1,0 +1,421 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/* css Position */
+
+/* 
+ .fixeddiv{
+    height: 400px;
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    margin: auto;
+    z-index: -1;    
+}
+
+.stikdiv{
+    position: sticky;
+    top: 500px;
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    border: 5px solid green; 
+}*/
+
+/*.mainbox{
+    display: flex;
+    height: 600px;
+    width: 700pxpx;
+    border: 2px solid grey;
+     /* background-color: pink;  */
+    /*margin-top: 100px;
+    position: relative;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(rgb(22, 43, 66), rgb(21, 102, 21), rgb(35, 35, 146));
+    position: absolute;
+    right: 0;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(16, 154, 200);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(126, 44, 46);
+    position: absolute;
+    bottom: 0;
+}
+.box10{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(99, 132, 202);
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(110, 60, 14);
+     position: absolute;
+    bottom: 0; 
+}
+
+.box5{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(128, 78, 110);
+}
+
+.box6{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(94, 14, 110, 0.333);
+}
+
+.box7{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 136, 15);
+}
+
+.box8{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(34, 125, 101);
+}
+
+.box9{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(122, 53, 143);
+}  */
+
+/* .static{
+    height: 100px;
+    width: 100%;
+    position:static;
+    background-color: gray;
+    border:1px solid  black;
+} */
+
+
+/* .fixed{
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    z-index: -1;
+    bottom: 0;
+    background-color: gray;
+    border:1px solid  black;
+} */
+
+
+/* .box{
+    height: 500px;
+    background-color: red;
+    border:1px solid black;
+}
+
+.sticky{
+    position: sticky;
+    height: 200px;
+    background-color: blueviolet;
+    bottom: 0;
+    top: 200px;
+} */
+/* --------------------- */
+ /* .div{
+    position: absolute;
+    width: 1200px;
+    height: 200px;
+    background-color: blue;
+    bottom: 300px;
+    z-index: 1;
+    margin: auto;
+    border-radius: 30px;
+}
+
+
+ article{
+    display: flex;
+    justify-content: center;
+ }   */
+/*
+
+ section {
+    position: absolute;
+    bottom: 0;
+    height: 50vh;
+    width: 100%;
+    background-color: pink;
+} 
+
+
+ .relative {
+    position: relative;
+    height: 100vh;
+    background-color: rgb(223, 223, 223);
+} 
+
+
+
+ .div-1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 2px;
+    left: 0;
+    margin: auto;
+    background-color: blue;
+}
+
+ .div-2 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 0;
+    background-color: red;
+    border-radius: 2px;
+}
+
+
+
+.div-3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -1;
+    left:0;
+    right:0;
+    margin:auto;
+    background-color: green;   
+}
+
+.div-4 { 
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
+    background-color: blueviolet;
+} 
+
+ .div-5 {
+   position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: orange;
+}
+
+ .div-6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    inset:-500px;
+    margin: auto;
+    background-color: slateblue;
+} 
+
+ .div-7 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+} 
+
+ .div-8 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left: 0;  
+    background-color: pink;
+} 
+
+ .div-9 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    background-color:brown;
+}
+ */
+
+/* .div-1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: coral;
+}
+
+.div-2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 80PX;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(38, 69, 23);
+}
+
+.div-3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(119, 101, 50);
+}
+
+.div-4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 160px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(67, 23, 69);
+}
+
+.div-5{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 190px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(29, 112, 132);
+}
+
+.div-6{
+    position: relative  ;
+    height: 100px;
+    width: 100px;
+    top: 220px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(174, 48, 180);
+}
+
+.div-7{
+    position: relative  ;
+    height: 100px;
+    width: 100px;
+    top: 210px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(133, 169, 23);
+}
+
+.div-8{
+    position: relative  ;
+    height: 100px;
+    width: 100px;
+    top: 220px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgb(176, 80, 51);
+} */
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100vh;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: brown;
+}
+
+.class-1{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 50% 50% 0%;
+}
+
+.class-2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 0;
+    background-color:rgb(122, 173, 27) ;
+    border-radius: 50% 50% 50% 0%;
+}
+
+.class-3{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    background-color:rgb(53, 123, 161) ;
+    border-radius: 50% 0% 50% 50%;
+}
+
+.class-4{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 0;
+    right: 0;
+    background-color:rgb(204, 44, 145) ;
+    border-radius: 0% 50% 50% 50%;
+}
+
+.class-5{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color:rgb(54, 46, 141) ;
+    overflow: hidden;
+}
+

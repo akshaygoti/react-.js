@@ -1,0 +1,28 @@
+
+ .float-1 img{
+    float: left;
+    clear: left;
+}
+
+/* .p .float-1{
+    float: left;
+}  */
+
+.box-21{
+    height: 400px;
+    width: 400px;
+    background-color: yellow;   
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow: hidden;
+    overflow: auto;
+}
+
+.box-22{
+    height: 400px;
+    width: 400px;
+    overflow: auto;   
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    overflow: hidden;
+}

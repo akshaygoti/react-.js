@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utilities</title>
+    <title>Helpers</title>
     <!-- cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -241,9 +241,9 @@
   <!-- Ratio -->
   
   <!-- <div class="ratio ratio-1x1"> -->
-  <!-- <div class="ratio ratio-16x9">
-  <iframe src="pexels-carola-maria.mp4" title="YouTube video" allowfullscreen></iframe>
-  </div> -->
+   <!-- <div class="ratio ratio-16x9">
+    <iframe src="https://www.youtube.com/embed/kDgngY66kY0?si=Akt9FKwzjfV1OahI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>  -->
 
 
   <!-- Stacks -->
@@ -269,10 +269,7 @@
   </div>-->
 
 <!-- example -->
-  <div class="vstack gap-3 col-md-5 mx-auto">
-  <button type="button" class="btn btn-secondary">Save changes</button>
-  <button type="button" class="btn btn-outline-secondary">Cancel</button>
-</div>
+      -->
 
 <!-- <div class="hstack gap-3">
   <input class="form-control me-auto" type="text" placeholder="Add your item here..." aria-label="Add your item here...">
@@ -295,7 +292,7 @@
 <!-- card2 -->
   <!-- <div class="row g-0 bg-body-secondary position-relative">
     <div class="col-md-6 mb-md-0 p-md-4 order-2">
-      <img src="../Bootstrap/project-2.jpg" class="w-100" alt="..." style="height: 20rem; width: 5rem;">
+      <img src="../Bootstrap/mohnish-landge.jpg" class="w-100" alt="...">
     </div>
     <div class="col-md-6 p-4 ps-md-0 order-3">
       <h5 class="mt-0">Columns with stretched link</h5>
@@ -309,24 +306,48 @@
 
   <!-- Block level -->
   <!-- div is block level tag -->
-<div class="row">
-  <div class="col-2 text-truncate">
-    This text is quite long, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, accusamus beatae voluptas explicabo a id quis delectus nobis quaerat alias sint nemo suscipit. Quis nihil nobis ipsum sint necessitatibus hic est repellat quod, deserunt quasi sunt aliquid veniam dolor consectetur cum facere delectus suscipit neque quibusdam possimus. Repudiandae voluptatibus incidunt, architecto nobis maiores nisi necessitatibus doloremque repellendus vitae soluta magni aliquam voluptatem consequuntur sed vero? Magnam voluptas quis esse, nemo nam totam temporibus delectus, vel, quo veritatis eligendi eius tempora laboriosam. Veritatis, maxime. Doloribus aspernatur ad, assumenda totam beatae quam quo voluptatibus expedita quae non esse corporis, incidunt laudantium quidem!and will be truncated once displayed.
-  </div>
-</div>
+  <!-- <div class="row">
+    <div class="col-2 text-truncate">
+      This text is quite long, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, accusamus beatae voluptas explicabo a id quis delectus nobis quaerat alias sint nemo suscipit. Quis nihil nobis ipsum sint necessitatibus hic est repellat quod, deserunt quasi sunt aliquid veniam dolor consectetur cum facere delectus suscipit neque quibusdam possimus. Repudiandae voluptatibus incidunt, architecto nobis maiores nisi necessitatibus doloremque repellendus vitae soluta magni aliquam voluptatem consequuntur sed vero? Magnam voluptas quis esse, nemo nam totam temporibus delectus, vel, quo veritatis eligendi eius tempora laboriosam. Veritatis, maxime. Doloribus aspernatur ad, assumenda totam beatae quam quo voluptatibus expedita quae non esse corporis, incidunt laudantium quidem!and will be truncated once displayed.
+    </div>
+  </div> -->
 
 <!-- Inline level -->
 <!-- span is inline tag -->
-<span class="d-inline-block text-truncate" style="max-width: 150px;">
+<!-- <span class="d-inline-block text-truncate" style="max-width: 150px;">
   Lorem ipsum dolor sit amet consectetur adipisicing elit. In totam voluptas ea optio quibusdam earum, sunt odit, illum quidem unde fugit velit, illo non reiciendis sapiente. Ad nostrum aperiam recusandae harum suscipit debitis pariatur earum? Impedit perferendis assumenda architecto. Magnam quam qui voluptatibus ad, adipisci vel autem aut pariatur neque.
-</span>
+</span> -->
 
     <!-- Vertical rule -->
 
     <!-- They’re 1px wide
     They have min-height of 1em
     Their color is set via currentColor and opacity -->
+  <div class="p-5">
+    <div class="vr">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt dolores molestias sequi autem aperiam quisquam debitis, quos odit suscipit laboriosam quam cum in quaerat consectetur? Cupiditate quas sapiente repellat aut accusantium, est id? Totam asperiores, non illum numquam aliquam assumenda laborum perspiciatis unde! Sunt vel deleniti, aliquam facilis tempora impedit</p>
+    </div>
+  </div>
 
+  <div class="hstack gap-3" style="background-color: darksalmon;">
+    <div class="p-2" style="background-color: lightcoral;">First item</div>
+    <div class="vr"></div>
+    <div class="p-2" style="background-color: lightcoral;">Second item</div>
+    <div class="vr"></div>
+    <div class="p-2" style="background-color: lightcoral;">Third item</div>
+    <div class="vr"></div>
+    <div class="p-2" style="background-color: lightcoral;">Four item</div>
+    <div class="vr"></div>
+    <div class="p-2" style="background-color: lightcoral;">Five item</div>
+  </div>
+
+  <!-- Visually hidden -->
+
+  <h2 class="visually-hidden">Title for screen readers</h2>
+
+  <a class="visually-hidden-focusable" href="#content">Skip to main content</a>
+  
+  <div class="visually-hidden-focusable">A container with a <a href="#">focusable element</a>.</div>
       
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

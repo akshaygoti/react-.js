@@ -7,11 +7,27 @@
 
     <!-- cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+
+      .accordion-button::after{
+        background-image: url(plus-lg.svg);
+      }
+      .accordion-button:not(.collapsed)::after{
+        background-image: url(./dash-svgrepo-com.svg);
+      }
+
+      .accordion-item{
+        overflow: hidden;
+        border: 0px !important;
+        margin-top: 5px;
+      }
+
+    </style>
+
 </head>
 <body>
     <div class="p-5">
-
-        <div class="accordion" id="accordionExample">
+        <div class="accordion px-5 m-auto w-75 mt-5" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: rgb(87, 87, 245);">
@@ -20,11 +36,10 @@
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body d-flex">               
-                    <img src="photo1701335391 (2).jpeg" alt="" style="height: 8rem;">
-                    <div>
+                    <img src="photo1701335391 (2).jpeg" alt="" style="height: 8rem;" class="rounded-pill">
+                    <div class="px-2">
                       <h4>Find Your New Home With a Click</h4>
-
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum inventore error culpa asperiores reiciendis consequatur, velit voluptatum id! Dignissimos recusandae doloremque quidem hic, natus id placeat, beatae asperiores eum illo minus perferendis vitae. Vel nemo laborum, nobis deleniti illum possimus voluptatum quod amet, ullam a id, tempora veniam? Quo.
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum inventore error culpa asperiores reiciendis consequatur, velit voluptatum id! Dignissimos recusandae doloremque quidem hic, natus id placeat, beatae asperiores eum illo minus perferendis vitae. Vel nemo laborum, nobis deleniti illum possimus voluptatum quod amet, ullam a id, tempora veniam?.
                     </div>
                 </div>
               </div>
@@ -36,8 +51,12 @@
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatum cumque eaque laboriosam quidem sunt magni voluptas, itaque nostrum blanditiis odit dignissimos, accusantium modi vitae pariatur eligendi dolorum ducimus tempora odio doloribus vel minus! Cum, optio nulla dignissimos obcaecati eos vero rem itaque provident quaerat esse laudantium, nemo id assumenda?
+                <div class="accordion-body">                  
+                  <img src="photo1701335391 (2).jpeg" alt="" style="height: 8rem;" class="rounded-pill">
+                  <div class="px-2">
+                    <h4>Find Your New Home With a Click</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum inventore error culpa asperiores reiciendis consequatur, velit voluptatum id! Dignissimos recusandae doloremque quidem hic, natus id placeat, beatae asperiores eum illo minus perferendis vitae. Vel nemo laborum, nobis deleniti illum possimus voluptatum quod amet, ullam a id, tempora veniam?.
+                  </div>
                 </div>
               </div>
             </div>
@@ -49,7 +68,12 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, perspiciatis odit ducimus consequatur suscipit deleniti illo. Ipsa magnam incidunt dignissimos omnis libero nemo, debitis mollitia odit laboriosam perferendis quasi eaque reiciendis perspiciatis voluptatibus at nisi nulla quidem quos pariatur velit consectetur modi, esse provident impedit. Soluta ducimus voluptatibus mollitia corporis?
+                  <img src="photo1701335391 (2).jpeg" alt="" style="height: 8rem;" class="rounded-pill">
+                  <div class="px-2"> 
+                    <h4>Find Your New Home With a Click</h4>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, perspiciatis odit ducimus consequatur suscipit deleniti illo. Ipsa magnam incidunt dignissimos omnis libero nemo, debitis mollitia odit laboriosam perferendis quasi eaque reiciendis perspiciatis voluptatibus at nisi nulla quidem quos pariatur velit consectetur modi, esse
+                    provident impedit. Soluta ducimus voluptatibus mollitia corporis?
+                  </div>
                 </div>
               </div>
             </div>

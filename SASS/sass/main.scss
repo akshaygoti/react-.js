@@ -1,0 +1,70 @@
+@import 'variables/variabless';
+
+.container{
+    display: $flex;
+} 
+.box-1{
+    height: $h-5;
+    width: $w-2;
+    border-radius: $br-3;
+    border: $br-2 solid;
+    border-color: $bc-1; 
+    margin-right: $m-3;
+    margin-left: $m-4;
+    margin-top: $m-2;
+}
+.box-2{
+    height: $h-5;
+    width: $w-2;
+    border-radius: $br-3;
+    border: $br-2 solid;
+    border-color: $bc-1; 
+    // margin-right: $m-3;
+    margin-left: $m-4;
+    margin-top: $m-2;
+    background-color:rgb(234, 77, 129);
+}
+.box-3{
+    height: $h-5;
+    width: $w-2;
+    border-radius: $br-3;
+    border: $br-2 solid;
+    border-color: $bc-1;
+    margin-right: $m-3;
+    margin-left: $m-4;
+    margin-top: $m-2; 
+}
+
+.img{
+    height: $h-1;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 100px;
+
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+
+button{
+    height: 35px;
+    width: 200px;
+    background-color: $bg-5;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: $br-5;
+    color: white;
+}
+
+
+
+

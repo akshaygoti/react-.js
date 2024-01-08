@@ -101,7 +101,7 @@
     
 // Multiple assignement
 
-$list:((main,red,100,10px),(para,purpel,200px,20px),(box,red,100,10px));
+$list:((main,red,100,10px),(para,purple,200px,20px),(box,red,100,10px));
 $list:((main,100px,red,10),(para,purple,200px,20px),(box,red,100px,10px));
 
 @each $name , $color , $size , $position in $list{
@@ -109,8 +109,10 @@ $list:((main,100px,red,10),(para,purple,200px,20px),(box,red,100px,10px));
      border:$color;
      height: $size;
      left:$position;
+     display: $d-1;
    }
  }
+ 
  @each $a in main box box-1 box-2 box-3{
          .#{$a}{
              border:10px solid red;

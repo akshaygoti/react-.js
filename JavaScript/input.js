@@ -443,21 +443,48 @@ console.log("Wlcome to Javascript");
 
 
 // program 6
-{
-    let n=6, i=1, fact=1
 
-    while(i<=n)
-    {
-        fact = fact * i
-        i++
-    }
-    document.write(fact);
-    document.write("<br>")
+// {
+//     let n=6, i=1, fact=1
 
-    for(i=1;i<=n;i++)
-    {
-        fact=fact*i
-    }
-    document.write(fact);
-}
+//     while(i<=n)
+//     {
+//         fact = fact * i
+//         i++
+//     }
+//     document.write(fact);
+//     document.write("<br>")
 
+//     for(i=1;i<=n;i++)
+//     {
+//         fact=fact*i
+//     }
+//     document.write(fact);
+// }
+
+// program 7
+
+
+// program 9
+
+// function print_pattern(){
+//     let i=1
+//     while(i<=10){
+//       let str=""
+//       let j=0
+//       while(j<=6-i){
+//         str+=" *"
+//         j++
+//       }
+//       j=0
+//       while(j<=i-5){
+//         str+=" *"
+//         j++
+//       }
+//       i++
+//       document.write(str);
+//       document.write("<br>");
+
+//     }
+//   }
+//   print_pattern();

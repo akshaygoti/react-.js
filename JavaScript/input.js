@@ -427,20 +427,18 @@ console.log("Wlcome to Javascript");
 
 // program 5
 
-// {
-//      let x ;
-//     let y = 0;
-//     let c=1;
-
-//     document.write(y + "<br>");
-//     for(let i=0; i<=5; i++)
-//     {
-//         x=y+c;
-//         y=c;
-//         c=x;
-//         document.write(x + "<br>");   
-//     }
-// }
+{
+    // let x ;
+    // let y = 0;
+    // let c=1;
+    
+    // for(let i=0; i<=5; i++)
+    // {
+    //     x=y+c;
+    //     y=c;
+    //     c=x;   
+    // }
+}
 
 
 // program 6

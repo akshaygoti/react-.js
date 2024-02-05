@@ -60,12 +60,37 @@
 
 
 {
-    const numbers = [65,44,56,40];
-    const newArr =  numbers.map(myfunction);
+    // const numbers = [65,44,56,40];
+    // const newArr =  numbers.map(myfunction);
 
-    document.getElementById("demo").inertHTML = newArr;
+    // document.getElementById("demo").inertHTML = newArr;
 
-    function myFunction(num) {
-        return num * 10;
-      }
+    // function myFunction(num) {
+    //     return num * 10;
+    //   }
 }
+
+{
+
+    const    map1 = new Map();
+
+    map1.set('x',10);
+    map1.set('y',20);
+    map1.set('z',30);
+
+    map1.set('x', 970);
+
+    console.log(map1.get('x'));
+
+    // size
+    console.log(map1.size);
+
+
+    console.log('z');
+    console.log(map1.size);
+
+}
+
+
+
+

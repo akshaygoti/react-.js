@@ -443,50 +443,27 @@ console.log("Wlcome to Javascript");
 
 // program 6
 
-// {
-//     let n=6, i=1, fact=1
+{
+//    let a = 5;
+//    let b = 1;
+//    let c = 2;
 
-//     while(i<=n)
-//     {
-//         fact = fact * i
-//         i++
-//     }
-//     document.write(fact);
-//     document.write("<br>")
+//     while(c<=a){
+//         b=b*c;
+//         c++;
 
-//     for(i=1;i<=n;i++)
-//     {
-//         fact=fact*i
+//         document.write(b);
+//         document.write("<br>");
 //     }
-//     document.write(fact);
-// }
+
+}
 
 // program 7
 
 
 // program 9
 
-// function print_pattern(){
-//     let i=1
-//     while(i<=10){
-//       let str=""
-//       let j=0
-//       while(j<=6-i){
-//         str+=" *"
-//         j++
-//       }
-//       j=0
-//       while(j<=i-5){
-//         str+=" *"
-//         j++
-//       }
-//       i++
-//       document.write(str);
-//       document.write("<br>");
 
-//     }
-//   }
-//   print_pattern();
 
 
 
@@ -517,13 +494,18 @@ console.log("Wlcome to Javascript");
 
 
 {
-    const Message = prompt();
-    document.write(Message);
+    // const Message = prompt();
+    // document.write(Message);
     
-    // let message= confirm("this is javascript?");
-    let message = confirm("what are you age");
-    document.write(message);
+    // // let message= confirm("this is javascript?");
+    // let message = confirm("what are you age");
+    // document.write(message);
 
 }
 
+{
+    function myFunction(){
+        alert("Hello\nHow are you?\nHow do you do?\nWhat is your name");
+    }
+}
 

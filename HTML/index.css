@@ -5,7 +5,7 @@
 
 
    /* css transtion */
-
+/* 
    .maindiv{
     border: 2px solid orchid;
     padding: 5px;
@@ -15,22 +15,22 @@
     height: 100px;
     width: 100px;
     background-color: greenyellow;
-   }
+   } */
 
-   .maindiv:hover .transition{
+   /* .maindiv:hover .transition{ */
     /* width: 500px;
     height: 500px; */
-    background-color: orange;
+    /* background-color: orange;
     transform: translate(1000px);
     transition-duration: 5s;
     transition-delay:5s;
-    transition-property: all;
+    transition-property: all; */
     /* transition-timing-function: steps(10); */
-  }
+  /* } */
 
 
   /* css transfrom */
-
+/* 
   .transform{
     height: 100px;
     width: 100px;
@@ -38,12 +38,17 @@
     margin: 200px;
     color: white;
     font-size: 20px;
-  }
+  } */
 
-  .transform:hover{
+  /* .transform:hover{ */
     /* transform:translateX(200px) ; */
-    transform: scale(.7);
-    transform: rotate(-1200px);
+    /* transform: scale(.7); */
+    /* transform: rotate(-1200px); */
     /* transform: skew(90deg,50deg); */
     /* transform: 2s; */
-  }     
+  /* }     
+   */
+
+ 
+   
+  

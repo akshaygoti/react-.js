@@ -1,0 +1,31 @@
+img{
+   height: 100%;
+   width: 100%;
+   margin: 20px auto;
+   position: absolute;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 100px;
+    animation-name: task;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes task{
+    0%{
+        margin-left: 300px;
+        transform: translateY(0px);
+        background-color:orange;
+    }
+    100%{
+        margin-left: 300px;
+        transform: translateY(300px);
+        background-color: yellow;
+    }
+}

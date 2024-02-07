@@ -1,18 +1,32 @@
+.main{
+    /* height: 500px;
+    width: 100%; */
+    /* background-color: blueviolet; */
+}
+
+
+
 div{
     height: 200px;
     width: 200px;
-    margin: auto;
-    background-color: black;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
     animation-name: task;
-    animation-timing-function: linear;
     animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 
-div{
-    color: white;
+div::before{
+    color: black;
     content: counter(counter);
-    font-size: 20px;
+    font-size: 40px;
+    height: 100%;
+    width: 100%;
     display: flex;
+
     justify-content: center;
 }
 

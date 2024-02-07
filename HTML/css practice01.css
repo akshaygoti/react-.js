@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.animation-contect{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    animation-name: contect;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: step-start;
+    /* animation-direction: alternate-reverse; */
+    /* animation-play-state: paused; */
+    position: absolute;
+}
+
+@keyframes contect{
+    from{
+        transform: translate(0px) rotate(0deg);
+    }
+    to{
+        transform: translate(900px) rotate(400px);
+    }
+}
+
+@keyframes contect{
+    /* 0%{
+        transform: translate(0px);
+        background-color: yellow;
+    }
+    25%{
+        transform: translate(300px);
+        background-color: pink;
+    }
+    50%{
+        transform: translate(600px);
+        background-color: purple;
+    }
+    75%{
+        transform: translate(900px);
+        background-color: red;
+    }
+    100%{
+        transform: translate(1000px);
+        background-color: black;
+    } */
+}
+
+@keyframes contect{
+    0%{
+        top: 0px;
+    }
+    25%{
+        left: 0;
+        top: 400px;
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+    }
+    75%{
+        left: 400px;
+        top: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+
+/* .maindiv{
+    height: 150px;
+    width: 300px;
+    background-color: blue;
+    border: 2px solid black;
+} */
+
+.task{
+     height: 200px;
+     width: 300px; 
+     margin: 20px auto;
+     background-color: blue;
+     animation-name:task;
+     transition: 500ms linear;
+    }
+
+.task:hover{
+  height: 300px;
+  width: 500px;
+  
+  /* transform: translate(1000px); */
+  /* transition-duration:5s; */
+  /* transition-delay: 5s; */
+  /* transition-property:all; */
+  /* transition-timing-function: steps(10); */
+}

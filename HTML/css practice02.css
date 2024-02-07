@@ -1,0 +1,38 @@
+div{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: black;
+    animation-name: task;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+}
+
+div{
+    color: white;
+    content: counter(counter);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes task{
+    0%{
+        counter-increment:  0;
+    }
+    15%{
+        counter-increment: counter 1;
+    }
+    30%{
+        counter-increment: counter 2;
+    }
+    50%{
+        counter-increment: counter 3;
+    }
+    65%{
+        counter-increment: counter 4;   
+    }
+    75%{
+        counter-increment: counter 6;
+    }
+}

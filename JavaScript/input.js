@@ -463,7 +463,20 @@ console.log("Wlcome to Javascript");
 
 // program 9
 
+// number of revers
 
+
+let num = 321;
+let rimind = 0;
+
+while(num>0);
+{
+    rimind=num%10;
+
+    console.log(rimind=num%10);
+
+    num =  Number.parseInt(num/10);
+}
 
 
 
@@ -504,8 +517,8 @@ console.log("Wlcome to Javascript");
 }
 
 {
-    function myFunction(){
-        alert("Hello\nHow are you?\nHow do you do?\nWhat is your name");
-    }
+    // function myFunction(){
+    //     alert("Hello\nHow are you?\nHow do you do?\nWhat is your name");
+    // }
 }
 

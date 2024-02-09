@@ -72,25 +72,35 @@
 
 {
 
-    const    map1 = new Map();
+//     const    map1 = new Map();
 
-    map1.set('x',10);
-    map1.set('y',20);
-    map1.set('z',30);
+//     map1.set('x',10);
+//     map1.set('y',20);
+//     map1.set('z',30);
 
-    map1.set('x', 970);
+//     map1.set('x', 970);
 
-    console.log(map1.get('x'));
+//     console.log(map1.get('x'));
 
-    // size
-    console.log(map1.size);
+//     // size
+//     console.log(map1.size);
 
 
-    console.log('z');
-    console.log(map1.size);
+//     console.log('z');
+//     console.log(map1.size);
 
 }
 
 
 
+let num = 321;
+let rimind = 0;
 
+while(num>0);
+{
+    rimind=num%10;
+
+    console.log(rimind);
+
+    num =  Number.parseInt(num/10);
+}

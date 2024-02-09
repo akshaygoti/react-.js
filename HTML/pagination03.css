@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.maindiv{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background:  url(pexels-pixabay-208321.jpg);
+    background-size:cover ;
+    background-position:center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maindiv .pagination li {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+.maindiv .pagination{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+    border-radius: 2px;
+}
+
+.maindiv .pagination li a {
+    position: relative;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+
+

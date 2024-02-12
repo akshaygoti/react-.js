@@ -11,13 +11,26 @@
 // console.log(product);
 
 // 2.
-const demo =  {
-    yourname: "@akshaygoti.if950nhi",
-    yourfollow: false,
-    yourfollowers: 768,
-    yourfollowing: 879,
+// const demo =  {
+//     yourname: "@akshaygoti.if950nhi",
+//     yourfollow: false,
+//     yourfollowers: 768,
+//     yourfollowing: 879,
+// };
+
+// console.log(demo);
+
+// console.log(typeof demo["yourname"]);
+
+
+// 3.
+const results = {
+    Name: "raj Kunt",
+    Rol: 23,
+    Sub: 7,
+    Grade: 'B',    
 };
 
-console.log(demo);
+console.log(results);
 
-console.log(typeof demo["yourfollowing"]);
+console.log(typeof results["Grade"]);

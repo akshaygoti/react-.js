@@ -159,7 +159,7 @@
 
 
 
-// 11.
+// 11.      This program is wrong    <----------------
 // let i,k;
 // let n;
 
@@ -184,7 +184,7 @@
 
 
 // 12.
-// let i=51;
+// let i=;
 
 // do
 // {
@@ -312,16 +312,28 @@
 
   // 21.  
 {
-    let x = 1;
-    let y = 0;
+    // let x = 1;
+    // let y = 0;
     
-    while(x<=10){
-        y = y + x;
-        document.write(x);
-        document.write("<br>");
-        x++;
-    }
-    document.write("total:-\t\t",y);
+    // while(x<=10){
+    //     y = y + x;
+    //     document.write(x);
+    //     document.write("<br>");
+    //     x++;
+    // }
+    // document.write("total:-\t\t",y);
 
 }
   
+
+// 22.
+
+const Color=["BMW", "Volvo", "Saab", "Ford"]
+const i = 2;
+let len = cars.length;
+ 
+for(;i<len;i++){
+  text += cars[i] + "<br>"
+}
+
+document.getElementById("demo").innerHTML = text;

@@ -1,0 +1,80 @@
+* ul li
+{
+    list-style-type: none;
+}
+
+.navbar
+{
+    background-image:linear-gradient(to bottom , rgba(255,255,255,0.9),rgba(255,255,255,0.9));
+    padding-bottom:20px;
+    box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.5);
+}
+
+*a
+{
+    text-decoration: none;
+}
+
+header .header-box
+{
+    padding-top: 76px;
+}
+
+/* header deta  */
+
+
+/* animation text  */
+
+
+header .header-box .row .header-deta .head-text .dynamic-text
+{
+    overflow: hidden;
+    max-height: 84px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+header .header-box .row .header-deta .head-text .dynamic-text li
+{
+    animation:to-top 14s steps(3) infinite alternate;
+}
+
+
+/* header - image  */
+
+header .header-box .row .header-image
+{
+    margin: auto;
+    max-width: 476px;
+    padding: 18px;
+}
+
+
+/* =================================== main ========================*/
+/* section - 1 about me  */
+
+.about-S1
+{
+    margin-bottom: 7rem;
+}
+
+
+.about-S1 .ab-deta .ab-text h1 span
+{
+    border-bottom:2px solid #00FFFF;
+}
+
+.about-S1 .ab-deta .ab-text p
+{
+    line-break:loose;
+    line-height: 2.2rem;
+}
+
+.about-S1 .ab-deta .ab-title .title-box
+{
+    position: relative;
+}
+
+
